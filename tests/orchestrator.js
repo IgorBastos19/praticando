@@ -1,5 +1,5 @@
 import retry from "async-retry";
-import datavase from "infra/database.js";
+import database from "infra/database.js";
 
 async function waitForAllServices() {
   await waitForWebServer();
